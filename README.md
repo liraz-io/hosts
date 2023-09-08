@@ -1,2 +1,2 @@
-# adlists
-Adlists for use with Pi-hole and other DNS sinkhole servers
+# Hosts
+Blocklists for ads and tracking services. Updated regularly.
