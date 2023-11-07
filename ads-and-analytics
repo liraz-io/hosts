@@ -1,5 +1,5 @@
 # LIRAZ.IO Hosts File (Ads And Analytics)
-# Blocking mobile ad providers and some analytics providers
+# Blocking mobile ad providers, telemetry, trackers, and some analytics providers
 #
 # Fetch the latest version of this file:
 # https://raw.githubusercontent.com/liraz-io/hosts/main/ads-and-analytics
@@ -7,8 +7,8 @@
 # Project home page:
 # https://github.com/liraz-io/adlists
 #
-# ===============================================================
-
+# =======================================================================
+#
 127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
 127.0.0.1 local
@@ -23,15 +23,112 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
-
-# Newly added greylist hosts, pending blacklist status after testing
+#
+# =======================================================================
+# Newly added (greylist) hosts, pending blacklist status after testing
+#
+# MICROSOFT ANALYTICS, DIAGNOSTICS, AND TRACKING ENDPOINTS
+#
+# Microsoft Connected User Experiences and Telemetry
+0.0.0.0 v10.events.data.microsoft.com
+0.0.0.0 v10c.events.data.microsoft.com
+0.0.0.0 v10.vortex-win.data.microsoft.com
+#
+# Microsoft Cortana and Live Tiles
+0.0.0.0 a-ring-fallback.msedge.net
+0.0.0.0 b-ring.msedge.net
+0.0.0.0 business.bing.com
+0.0.0.0 c.bing.com
+0.0.0.0 creativecdn.com
+0.0.0.0 dual-s-ring.msedge.net
+0.0.0.0 edgeassetservice.azureedge.net
+0.0.0.0 fp.msedge.net
+0.0.0.0 fp-afd-nocache-ccp.azureedge.net
+0.0.0.0 fp-vs.azureedge.net
+0.0.0.0 k-ring.msedge.net
+0.0.0.0 l-ring.msedge.net
+0.0.0.0 ln-ring.msedge.net
+0.0.0.0 odinvzc.azureedge.net
+0.0.0.0 prod-azurecdn-akamai-iris.azureedge.net
+0.0.0.0 r.bing.com
+0.0.0.0 s-ring.msedge.net
+0.0.0.0 t-ring.msedge.net
+0.0.0.0 t-ring-fdv2.msedge.net
+0.0.0.0 th.bing.com
+0.0.0.0 tse1.mm.bing.net
+0.0.0.0 widgetcdn.azureedge.net
+0.0.0.0 widgetservice.azurefd.net
+#
+# Microsoft Device Metadata
+0.0.0.0 dmd.metaservices.microsoft.com
+#
+# Windows Defender Smartscreen Notifications
+0.0.0.0 *smartscreen-prod.microsoft.com
+0.0.0.0 checkappexec.microsoft.com
+0.0.0.0 ping-edge.smartscreen.microsoft.com
+0.0.0.0 data-edge.smartscreen.microsoft.com
+0.0.0.0 nav-edge.smartscreen.microsoft.com
+#
+# Microsoft Location Data
+0.0.0.0 inference.location.live.net
+#
+# Microsoft Windows Diagnostic Data And Error Reporting
+0.0.0.0 browser.events.data.msn.com
+0.0.0.0 ceuswatcab01.blob.core.windows.net
+0.0.0.0 ceuswatcab02.blob.core.windows.net
+0.0.0.0 eaus2watcab01.blob.core.windows.net
+0.0.0.0 eaus2watcab02.blob.core.windows.net
+0.0.0.0 functional.events.data.microsoft.com
+0.0.0.0 kmwatsonc.events.data.microsoft.com
+0.0.0.0 *-kmwatsonc.events.data.microsoft.com
+0.0.0.0 lgmsapeweu.blob.core.windows.net
+0.0.0.0 oca.telemetry.microsoft.com
+0.0.0.0 oca.microsoft.com
+0.0.0.0 self.events.data.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com
+0.0.0.0 umwatsonc.events.data.microsoft.com
+0.0.0.0 *-umwatsonc.events.data.microsoft.com
+0.0.0.0 watson.*.microsoft.com
+0.0.0.0 watson.events.data.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 weus2watcab01.blob.core.windows.net
+0.0.0.0 weus2watcab02.blob.core.windows.net
+0.0.0.0 www.telecommandsvc.microsoft.com
+#
+# Microsoft Windows Spotlight
+0.0.0.0 api.msn.com
+0.0.0.0 arc.msn.com
+0.0.0.0 assets.msn.com
+0.0.0.0 c.msn.com
+0.0.0.0 fd.api.iris.microsoft.com
+0.0.0.0 mucp.api.account.microsoft.com
+0.0.0.0 ntp.msn.com
+0.0.0.0 ris.api.iris.microsoft.com
+0.0.0.0 srtb.msn.com
+0.0.0.0 staticview.msn.com
+#
+# UBIQUITI ANALYTICS, DIAGNOSTICS, AND TRACKING ENDPOINTS
+# The following is an incomplete list of domains to which UDM connects.
+# All of these domains can be blocked without losing local router functions. 
+#
+0.0.0.0 ping.ui.com
+0.0.0.0 ping.ubnt.com
+0.0.0.0 trace.svc.ui.com
+0.0.0.0 crash-report-service.svc.ui.com 
+0.0.0.0 api.ipify.org 
+0.0.0.0 icanhazip.com
+0.0.0.0 config.ubnt.com
+0.0.0.0 apt-beta.artifacts.ui.com
+0.0.0.0 apt.artifacts.ui.com
+0.0.0.0 security.debian.org
+0.0.0.0 _http._tcp.deb.debian.org
+0.0.0.0 deb.debian.org
+0.0.0.0 _http._tcp.security.debian.org
+0.0.0.0 deb.nodesource.com
+0.0.0.0 www.ubnt.com
+#
 # End of custom host records.
-
-#=====================================
-# LIRAZ-IO Ads And Analytics Hosts File
-# https://www.liraz.io
-
-0.0.0.0 *.test
+# =======================================================================
 
 # [163.com]
 0.0.0.0 analytics.163.com
