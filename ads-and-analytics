@@ -27,6 +27,76 @@ ff02::3 ip6-allhosts
 # =======================================================================
 # Newly added (greylist) hosts, pending blacklist status after testing
 #
+# SESSION REPLAY
+0.0.0.0 mc.yandex.ru
+0.0.0.0 fullstory.com
+0.0.0.0 d2oh4tlt9mrke9.cloudfront.net
+0.0.0.0 sessioncam.com
+0.0.0.0 ws.sessioncam.com
+0.0.0.0 userreplay.net
+0.0.0.0 script.hotjar.com
+0.0.0.0 insights.hotjar.com
+0.0.0.0 clicktale.net
+0.0.0.0 smartlook.com
+0.0.0.0 decibelinsight.net
+0.0.0.0 quantummetric.com
+0.0.0.0 inspectlet.com
+0.0.0.0 mouseflow.com
+0.0.0.0 logrocket.com
+0.0.0.0 salemove.com
+0.0.0.0 d10lpsik1i8c69.cloudfront.net
+0.0.0.0 luckyorange.com
+0.0.0.0 hoverowl.com
+0.0.0.0 seevolution.com
+0.0.0.0 getwisdom.io
+0.0.0.0 mousestats.com
+0.0.0.0 overheat.de
+0.0.0.0 vwo.com
+#
+# HULU
+0.0.0.0 api.distribution.hulu.com
+#
+# LG TELEVISIONS
+0.0.0.0 ad.lgappstv.com
+0.0.0.0 ibis.lgappstv.com
+0.0.0.0 jp.rdx2.lgtvsdp.com
+0.0.0.0 jp.lgtvsdp.com
+0.0.0.0 jp.info.lgsmartad.com
+0.0.0.0 lgad.cjpowercast.com.edgesuite.net
+0.0.0.0 #ngfts.lge.com # blocks thumbnails from loading in the LG Content Store
+0.0.0.0 smartclip.com
+0.0.0.0 smartclip.net
+0.0.0.0 smartshare.lgtvsdp.com
+0.0.0.0 us.ad.lgsmartad.com
+0.0.0.0 us.ibs.lgappstv.com
+0.0.0.0 us.info.lgsmartad.com
+#0.0.0.0 us.lgtvsdp.com # #117
+0.0.0.0 us.rdx2.lgtvsdp.com
+0.0.0.0 yumenetworks.com
+0.0.0.0 aic-ngfts.lge.com
+0.0.0.0 us.cdpbeacon.lgtvcommon.com
+0.0.0.0 us.cdpsvc.lgtvcommon.com
+0.0.0.0 us.homeprv.lgtvcommon.com
+0.0.0.0 us.nudge.lgtvcommon.com
+0.0.0.0 us.rdl.lgtvcommon.com
+0.0.0.0 us.recommend.lgtvcommon.com
+0.0.0.0 us.lgsmartad.com
+0.0.0.0 us.service.lgtvcommon.com
+#
+# NETFLIX
+# secure, api-global, and appboot break Netflix
+#secure.netflix.com                   
+#api-global.netflix.com
+#appboot.netflix.com
+#nrdp.nccp.netflix.com # Netflix playback fails on Humax DTR-T2100 (YouView) STB
+0.0.0.0 ichnaea.netflix.com
+0.0.0.0 customerevents.netflix.com
+#nrdp.prod.ftl.netflix.com  # https://oisd.nl/excludes.php?w=nrdp.prod.ftl.netflix.com
+#
+# Android TV (including Nvidia Shield TV)
+0.0.0.0 androidtvchannels-pa.googleapis.com
+0.0.0.0 androidtvwatsonfe-pa.googleapis.com
+#
 # MICROSOFT ANALYTICS, DIAGNOSTICS, AND TRACKING ENDPOINTS
 #
 # Microsoft Connected User Experiences and Telemetry
