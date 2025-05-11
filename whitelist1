@@ -1,1 +1,119 @@
-
+# WHITELIST #1
+#
+# PLEX DOMAINS
+0.0.0.0 plex.tv
+0.0.0.0 tvdb2.plex.tv
+0.0.0.0 pubsub.plex.bz
+0.0.0.0 proxy.plex.bz
+0.0.0.0 proxy02.pop.ord.plex.bz
+0.0.0.0 cpms.spop10.ams.plex.bz
+0.0.0.0 meta-db-worker02.pop.ric.plex.bz
+0.0.0.0 meta.plex.bz
+0.0.0.0 meta.plex.tv
+0.0.0.0 my.plexapp.com
+0.0.0.0 tvthemes.plexapp.com.cdn.cloudflare.net
+0.0.0.0 tvthemes.plexapp.com
+0.0.0.0 106c06cd218b007d-b1e8a1331f68446599e96a4b46a050f5.ams.plex.services
+0.0.0.0 meta.plex.tv
+0.0.0.0 cpms35.spop10.ams.plex.bz
+0.0.0.0 proxy.plex.tv
+0.0.0.0 metrics.plex.tv
+0.0.0.0 nine.plugins.plexapp.com
+0.0.0.0 pubsub.plex.tv
+0.0.0.0 status.plex.tv
+0.0.0.0 www.plex.tv
+0.0.0.0 node.plexapp.com
+0.0.0.0 nine.plugins.plexapp.com
+0.0.0.0 staging.plex.tv
+0.0.0.0 app.plex.tv
+0.0.0.0 o1.email.plex.tv
+0.0.0.0 o2.sg0.plex.tv
+0.0.0.0 dashboard.plex.tv
+0.0.0.0 gravatar.com # custom login pictures
+0.0.0.0 thetvdb.com # metadata for tv series
+0.0.0.0 themoviedb.com # metadata for movies
+0.0.0.0 chtbl.com # iHeart radio/Plex Podcast
+0.0.0.0 gfwsl.geforce.com
+#
+# DROPBOX
+0.0.0.0 dl.dropboxusercontent.com
+0.0.0.0 ns1.dropbox.com ns2.dropbox.com
+#
+# APPLE
+0.0.0.0 itunes.apple.com
+0.0.0.0 s.mzstatic.com
+0.0.0.0 appleid.apple.com
+0.0.0.0 gsp-ssl.ls.apple.com
+0.0.0.0 gsp-ssl.ls-apple.com.akadns.net
+#
+# CAPTIVE PORTALS
+0.0.0.0 connectivitycheck.android.com
+0.0.0.0 android.clients.google.com
+0.0.0.0 clients3.google.com
+0.0.0.0 connectivitycheck.gstatic.com
+0.0.0.0 msftncsi.com
+0.0.0.0 www.msftncsi.com
+0.0.0.0 ipv6.msftncsi.com
+0.0.0.0 captive.apple.com
+0.0.0.0 gsp1.apple.com
+0.0.0.0 www.apple.com
+0.0.0.0 www.appleiphonecell.com
+#
+# GOOGLE MAPS AND OTHER GOOGLE SERVICES
+0.0.0.0 clients4.google.com 
+0.0.0.0 clients2.google.com
+0.0.0.0 tracking-protection.cdn.mozilla.net
+#
+# GOOGLE PLAY
+0.0.0.0 android.clients.google.com
+#
+# GOOGLE FONTS
+0.0.0.0 gstaticadssl.l.google.com
+#
+# GOOGLE (MISC)
+0.0.0.0 clients4.google.com
+0.0.0.0 clients2.google.com
+0.0.0.0 android.clients.google.com
+0.0.0.0 oauthaccountmanager.googleapis.com
+#
+# GMAIL
+0.0.0.0 googleapis.l.google.com
+#
+# HULU
+0.0.0.0 ads-a-darwin.hulustream.com
+0.0.0.0 ads-fa-darwin.hulustream.com
+#
+# MICROSOFT
+0.0.0.0 outlook.office365.com
+0.0.0.0 products.office.com
+0.0.0.0 c.s-microsoft.com
+0.0.0.0 i.s-microsoft.com
+0.0.0.0 login.live.com
+0.0.0.0 login.microsoftonline.com
+0.0.0.0 g.live.com
+0.0.0.0 officeclient.microsoft.com
+#
+# SIGNAL
+0.0.0.0 ud-chat.signal.org
+0.0.0.0 chat.signal.org
+0.0.0.0 storage.signal.org
+0.0.0.0 signal.org
+0.0.0.0 www.signal.org
+0.0.0.0 updates2.signal.org
+0.0.0.0 textsecure-service-whispersystems.org
+0.0.0.0 giphy-proxy-production.whispersystems.org
+0.0.0.0 cdn.signal.org
+0.0.0.0 whispersystems-textsecure-attachments.s3-accelerate.amazonaws.com
+0.0.0.0 d83eunklitikj.cloudfront.net
+0.0.0.0 souqcdn.com
+0.0.0.0 cms.souqcdn.com
+0.0.0.0 api.directory.signal.org
+0.0.0.0 contentproxy.signal.org
+0.0.0.0 turn1.whispersystems.org
+#
+# YOUTUBE HISTORY AND APP FOR IOS
+0.0.0.0 s.youtube.com 
+0.0.0.0 video-stats.l.google.com
+0.0.0.0 www.googleapis.com 
+0.0.0.0 youtubei.googleapis.com
+0.0.0.0 oauthaccountmanager.googleapis.com
